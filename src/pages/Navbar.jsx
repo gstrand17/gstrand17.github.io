@@ -11,11 +11,14 @@ const Navbar = () => {
                 <li className="nav-item">
                     <a href='#home'>Home</a>
                 </li>
+                <li className="nav-item">
+                    <a href='#about'>About</a>
+                </li>
+                <li className="nav-item">
+                    <a href='#projects'>Projects</a>
+                </li>
                 {/*<li className="nav-item">*/}
-                {/*    <a href='#projects'>Home</a>*/}
-                {/*</li>*/}
-                {/*<li className="nav-item">*/}
-                {/*    <Link to='/resume'>Home</Link>*/}
+                {/*    <Link to='/resume'>Resume</Link>*/}
                 {/*</li>*/}
             </ul>
         </nav>

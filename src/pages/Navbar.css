@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #333;
+    background-color: #304827;
     padding: 20px;
     position:fixed;
     top: 0;
@@ -29,6 +29,7 @@
     text-decoration: none;
     font-size: 18px;
     text-wrap: nowrap;
+    font-weight: bold;
 }
 
 a{
@@ -40,7 +41,7 @@ a{
 }
 
 a:hover{
-    background-color: #575757;
+    background-color: #415B41;
     color: #de87c1;
     border-radius:5px;
 }

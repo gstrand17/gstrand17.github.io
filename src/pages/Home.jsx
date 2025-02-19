@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import headshot from '../assets/headshot.jpeg'
-import '../App.css'
+import './Home.css'
 
 
 function Home() {
