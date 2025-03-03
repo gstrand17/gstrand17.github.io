@@ -1,0 +1,14 @@
+.Cards{
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 2%;
+    padding: 2em;
+    /*overflow-wrap: normal;*/
+}
+
+.proj {
+    background-color: #D5DDCD;
+    width: 100vw;
+}

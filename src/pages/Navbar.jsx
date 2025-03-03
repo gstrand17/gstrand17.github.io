@@ -17,9 +17,9 @@ const Navbar = () => {
                 <li className="nav-item">
                     <a href='#projects'>Projects</a>
                 </li>
-                {/*<li className="nav-item">*/}
-                {/*    <Link to='/resume'>Resume</Link>*/}
-                {/*</li>*/}
+                <li className="nav-item">
+                    <Link to={'Resume'}>Resume</Link>
+                </li>
             </ul>
         </nav>
     );
