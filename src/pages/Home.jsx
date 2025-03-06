@@ -9,13 +9,7 @@ function Home() {
     return (
         <>
             <div>
-                {/*<a href="https://vite.dev" target="_blank">*/}
-                {/*  <img src={viteLogo} className="logo" alt="Vite logo" />*/}
-                {/*</a>*/}
-                {/*<a href="https://react.dev" target="_blank">*/}
-                {/*  <img src={reactLogo} className="logo react" alt="React logo" />*/}
-                {/*</a>*/}
-            <img src={headshot} className="pfp"></img>
+                <img src={headshot} className="pfp"></img>
             </div>
             <h1>Graciela Strand</h1>
             <div className="card">
