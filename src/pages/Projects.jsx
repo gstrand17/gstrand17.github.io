@@ -11,12 +11,12 @@ function Projects() {
 
     return (
         <>
-            <div className='proj' id='Projects'>
+            <div className='proj' id='projects'>
                 <div>
                     <h1>Projects</h1>
                 </div>
                 <div className="Cards">
-                    <Card style={{width: '18rem'}}>
+                    <Card style={{width: '18rem', backgroundColor: 'white'}}>
                         <Card.Img variant="top" src={Medusa} width='60vw' height='60vh'/>
                         <Card.Body>
                             <Card.Title>Divine Slice</Card.Title>

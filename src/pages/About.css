@@ -1,0 +1,72 @@
+.about {
+    margin: 0;
+
+}
+.about-h1{
+    font-size: 3rem;
+    padding-left: 5vw;
+    margin-bottom: 0;
+}
+.about-p{
+    font-size: 1.5rem;
+    padding-left: 8vw;
+    padding-right: 6vw;
+    margin-top: 10px;
+}
+.about-p2 {
+    font-size: 1.2rem;
+    flex: 1 1 48%;
+    width: 80vw;
+    min-width: 300px;
+    margin-top: 10px;
+}
+.about-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-left: 8vw;
+    padding-right: 6vw;
+    align-items: flex-start;
+}
+.about-box {
+    font-size: 1.2rem;
+    flex: 1 1 20vw;
+    min-width: 200px;
+    text-align: left;
+    line-height: 2rem;
+}
+/*bulleted lists*/
+.about-box p {
+    display: block;
+    font-size: 1.5rem;
+    margin-top:0;
+    margin-bottom: 0.5rem;
+}
+.about-box ul {
+    margin-left:5px;
+    margin-top:0;
+    /*list-style-image: url('../assets/greenheart.png');*/
+}
+.about-box li {
+    margin-bottom: 0.8rem;
+}
+
+/*Medium screen*/
+@media (max-width: 1000px) {
+    .about-p2 {
+        flex: 1 1 100%;
+        width: 80vw;
+    }
+
+    .about-box {
+        flex: 1 1 45%;
+    }
+}
+
+/*Small screen*/
+@media (max-width: 800px) {
+    .about-box {
+        padding-left: 8vw;
+        flex: 1 1 100%;
+    }
+}
