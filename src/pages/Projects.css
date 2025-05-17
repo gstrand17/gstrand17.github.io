@@ -7,8 +7,15 @@
     padding: 2em;
     /*overflow-wrap: normal;*/
 }
-
 .proj {
-    background-color: #D5DDCD;
+    background-color: #709970;
     width: 100%;
+}
+.proj-h1{
+    font-size: 3rem;
+    padding-left: 5vw;
+    padding-top: 1rem;
+    margin-bottom: 0;
+    color:white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }

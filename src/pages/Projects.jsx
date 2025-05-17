@@ -7,13 +7,12 @@ import './Projects.css';
 
 
 function Projects() {
-    //const [count, setCount] = useState(0)
 
     return (
         <>
             <div className='proj' id='projects'>
                 <div>
-                    <h1>Projects</h1>
+                    <h1 className="proj-h1">Projects</h1>
                 </div>
                 <div className="Cards">
                     <Card style={{width: '18rem', backgroundColor: 'white'}}>

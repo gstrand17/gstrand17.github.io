@@ -1,15 +1,18 @@
 .about {
     margin: 0;
-
+    color: #415B41;
+    font-weight: 500;
 }
 .about-h1{
     font-size: 3rem;
     padding-left: 5vw;
     margin-bottom: 0;
+    color:white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 .about-p{
     font-size: 1.5rem;
-    padding-left: 8vw;
+    padding-left: 7vw;
     padding-right: 6vw;
     margin-top: 10px;
 }
@@ -19,12 +22,13 @@
     width: 80vw;
     min-width: 300px;
     margin-top: 10px;
+    line-height: 30px;
 }
 .about-row {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    padding-left: 8vw;
+    padding-left: 7vw;
     padding-right: 6vw;
     align-items: flex-start;
 }
@@ -66,7 +70,7 @@
 /*Small screen*/
 @media (max-width: 800px) {
     .about-box {
-        padding-left: 8vw;
+        padding-left: 7vw;
         flex: 1 1 100%;
     }
 }
