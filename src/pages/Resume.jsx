@@ -17,9 +17,9 @@ const Resume = () =>{
                 <Navbar/>
             </nav>
             <h1 className="resume-h1"> Resume</h1>
-            <p className="resume-p"> (Last updated: May 2025)</p>
+            <p className="resume-p"> (Last updated: Sept 2025)</p>
             <div className="resume-button-wrapper">
-                <a href="../Resume2.pdf" download="Graciela-Strand-Resume.pdf">
+                <a href="../Resume.pdf" download="Graciela-Strand-Resume.pdf">
                     <button className="resume-button">
                         Download Resume
                     </button>

@@ -19,3 +19,9 @@
     color:white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
+.proj-p{
+    font-size: 1.5rem;
+    padding-left: 5vw;
+    margin-top: 0;
+    color:white;
+}
