@@ -1,0 +1,96 @@
+.gallery-h1{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 7rem;
+    margin-bottom: 0;
+    color: #415B41;
+}
+.gallery-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+/* ROW WITH TWO SMALL CARDS */
+.small-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* allows natural wrapping for varying widths */
+}
+
+
+
+
+/* TYPE 1 CARD */
+.gallery-card-small {
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    width: auto; /* shrink-to-fit */
+    max-width: 450px; /* prevent overflow on small screens */
+}
+
+
+
+
+.gallery-img-small {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+
+
+.gallery-caption {
+    padding: 10px;
+    font-size: 0.95rem;
+    background: #fafafa;
+    text-align: center;
+    color:black;
+}
+
+
+/* TYPE 2 CARD */
+.gallery-card-large {
+    width: 90%;
+    max-width: 900px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 15px;
+    background: white;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    height: auto;
+}
+
+
+.gallery-img-large {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.gallery-description {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.5;
+    align-self: center;
+    color:black;
+}

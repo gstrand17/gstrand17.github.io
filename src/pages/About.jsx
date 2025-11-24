@@ -20,24 +20,24 @@ function About() {
                         and collaboration. As a language-learner, I enjoy the syntax-memorization side of coding
                         to be intriguing too. I didn&apos;t expect to go down this path, as I was a dedicated studio dancer
                         all my life, but with coding, I found a new way to be creative and connect with people!</p>
-                    <div className="about-box">
-                        <p>Professional Interests</p>
-                        <ul>
-                            <li>Software Engineering</li>
-                            <li>Product Management</li>
-                            <li>Web Development</li>
-                            <li>AI and Machine Learning</li>
-                        </ul>
-                    </div>
-                    <div className="about-box">
-                        <p>Hobbies</p>
-                        <ul>
-                            <li>Dancing</li>
-                            <li>Practicing Spanish</li>
-                            <li>Cooking</li>
-                            <li>Bracelet-making</li>
-                        </ul>
-                    </div>
+                    {/*<div className="about-box">*/}
+                    {/*    <p>Professional Interests</p>*/}
+                    {/*    <ul>*/}
+                    {/*        <li>Software Engineering</li>*/}
+                    {/*        <li>Product Management</li>*/}
+                    {/*        <li>Web Development</li>*/}
+                    {/*        <li>AI and Machine Learning</li>*/}
+                    {/*    </ul>*/}
+                    {/*</div>*/}
+                    {/*<div className="about-box">*/}
+                    {/*    <p>Hobbies</p>*/}
+                    {/*    <ul>*/}
+                    {/*        <li>Dancing</li>*/}
+                    {/*        <li>Practicing Spanish</li>*/}
+                    {/*        <li>Cooking</li>*/}
+                    {/*        <li>Bracelet-making</li>*/}
+                    {/*    </ul>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </>

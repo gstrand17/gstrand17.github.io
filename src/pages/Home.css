@@ -31,15 +31,55 @@
 }
 
 .hero-text h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 0;
     padding-bottom: 0;
 }
 
 .hero-text p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin:0;
 
+}
+.intro {
+    color: #415B41;
+    font-weight: 500;
+    display: flex;
+    align-items: stretch;
+    gap: 10rem;
+    margin: 3rem 5rem;
+}
+.intro-square{
+    background-color: #94B394;
+    max-width: 60rem;
+    min-width: 30rem;
+    width:100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.intro-h1{
+    font-size: 4rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right:2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color:white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    line-height: 1.2;
+}
+.intro-p{
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+}
+.intro-img{
+    width: auto;
+    max-height: 24rem;
+    height: 100%;
+    margin-right: 10rem;
+    display: inline-block;
+    border: 8px ridge white;
 }
 
 /* Responsive tweaks */
@@ -49,10 +89,32 @@
     }
 
     .hero-text h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .hero-text p {
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+/*Medium screen*/
+@media (max-width: 1000px) {
+    .intro{
+        justify-content: center;
+    }
+    .intro-img{
+        display:none;
+    }
+}
+/*Small screen*/
+@media (max-width: 650px) {
+    .intro{
+        margin: 2rem 3rem;
+    }
+    .intro-h1{
+        font-size:3.5rem;
+    }
+    .intro-img{
+        display: none;
     }
 }

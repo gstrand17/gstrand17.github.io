@@ -3,7 +3,6 @@ import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import gmail from "../assets/gmail.png";
 
-
 function Contact() {
     const clicklinkedin = () => {
         window.open("https://www.linkedin.com/in/graciela-strand/", "_blank");
@@ -27,8 +26,7 @@ function Contact() {
                 <button onClick={clickgmail} className="contact-button">
                     <img className="contact-image" src={gmail} alt="Gmail"/>
                 </button>
-
-            </div>
+             </div>
         </>
     )
 }
