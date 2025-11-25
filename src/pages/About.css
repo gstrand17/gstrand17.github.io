@@ -7,24 +7,32 @@
 .about-h1{
     font-size: 3rem;
     padding-left: 5vw;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    color:white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+.about-h2{
+    font-size: 1.5rem;
+    padding-left: 7vw;
+    margin-top: 0;
     margin-bottom: 0;
     color:white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 .about-p{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: black;
     padding-left: 7vw;
     padding-right: 6vw;
+    padding-bottom: 10px;
     margin-top: 10px;
-}
-.about-p2 {
-    font-size: 1.2rem;
     flex: 1 1 48%;
     width: 80vw;
     min-width: 300px;
-    margin-top: 10px;
     line-height: 30px;
 }
+
 .about-row {
     display: flex;
     flex-wrap: wrap;
@@ -39,21 +47,6 @@
     min-width: 200px;
     text-align: left;
     line-height: 2rem;
-}
-/*bulleted lists*/
-.about-box p {
-    display: block;
-    font-size: 1.5rem;
-    margin-top:0;
-    margin-bottom: 0.5rem;
-}
-.about-box ul {
-    margin-left:5px;
-    margin-top:0;
-    /*list-style-image: url('../assets/greenheart.png');*/
-}
-.about-box li {
-    margin-bottom: 0.8rem;
 }
 
 /*Medium screen*/

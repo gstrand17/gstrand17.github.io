@@ -1,5 +1,4 @@
 import spain from '../assets/spain2.jpg'
-import citi from '../assets/citi.jpg'
 import './Home.css'
 
 
@@ -9,7 +8,7 @@ function Home() {
     return (
         <>
             <section className="hero">
-                <img src={spain} alt="Spain" className="hero-image"/>
+                <img src={spain} alt="Barcelona" className="hero-image"/>
                 <div className="hero-text">
                     <h1>Graciela Strand</h1>
                     <p>Software Engineer</p>
@@ -18,7 +17,9 @@ function Home() {
             </section>
             <div className="intro">
                 <div className="intro-square">
-                    <h1 className="intro-h1">Welcome!<br/><i>¡Bienvenidos!</i></h1>
+                    <h1 className="intro-h1">Welcome!</h1>
+                    <h1 className="intro-h1"><i>¡Bienvenidos!</i></h1>
+                    <h2 className="intro-h2">System.out.println(&quot;Nice to meet you!&quot;);</h2>
                 <p className="intro-p">I created this webpage primarily to showcase my skills, achievements, and
                     experiences as a software developer. As a senior at the University of Florida, I chose to join the
                     International Scholars Program and expanded this site into an e-portfolio to reflect on my global
@@ -27,7 +28,7 @@ function Home() {
                     program is only one part of my journey, the global curiosity and communication skills it inspired
                     will continue to guide me moving forward.</p>
                 </div>
-                <img src={citi} className="intro-img"></img>
+                {/*<img src={citi} className="intro-img"></img>*/}
             </div>
         </>
     )

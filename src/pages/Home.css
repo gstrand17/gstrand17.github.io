@@ -44,43 +44,49 @@
 .intro {
     color: #415B41;
     font-weight: 500;
+    justify-content: center;
     display: flex;
-    align-items: stretch;
     gap: 10rem;
     margin: 3rem 5rem;
 }
 .intro-square{
     background-color: #94B394;
-    max-width: 60rem;
+    max-width: 50rem;
     min-width: 30rem;
     width:100%;
-    flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top:2rem;
 }
 .intro-h1{
     font-size: 4rem;
-    padding-left: 2rem;
-    padding-top: 2rem;
-    padding-right:2rem;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
     color:white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-    line-height: 1.2;
+    line-height: 1;
+}
+.intro-h2{
+    font-size: 2rem;
+    /*padding-left: 2rem;*/
+    margin: 0;
+    /*padding-right:2rem;*/
+    color:white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 .intro-p{
     font-size: 1.2rem;
-    padding: 1rem 2rem;
+    padding: 0 2rem 1rem 2rem;
 }
-.intro-img{
-    width: auto;
-    max-height: 24rem;
-    height: 100%;
-    margin-right: 10rem;
-    display: inline-block;
-    border: 8px ridge white;
-}
+/*.intro-img{*/
+/*    width: auto;*/
+/*    max-height: 24rem;*/
+/*    height: 100%;*/
+/*    margin-right: 10rem;*/
+/*    display: inline-block;*/
+/*    border: 8px ridge white;*/
+/*}*/
 
 /* Responsive tweaks */
 @media (max-width: 1280px) {
@@ -98,23 +104,20 @@
 }
 
 /*Medium screen*/
-@media (max-width: 1000px) {
-    .intro{
-        justify-content: center;
-    }
-    .intro-img{
-        display:none;
+@media (max-width: 850px) {
+    .intro-h2{
+        font-size:1.8rem;
     }
 }
 /*Small screen*/
-@media (max-width: 650px) {
+@media (max-width: 750px) {
     .intro{
         margin: 2rem 3rem;
     }
     .intro-h1{
         font-size:3.5rem;
     }
-    .intro-img{
-        display: none;
+    .intro-h2{
+        font-size:1.5rem;
     }
 }
