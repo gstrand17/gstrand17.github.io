@@ -1,7 +1,6 @@
 import Navbar from './pages/Navbar.jsx'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
-import Influences from './pages/Influences.jsx'
 import Contact from './pages/Contact.jsx'
 
 
@@ -13,7 +12,6 @@ function App() {
           <Navbar />
           <Home />
           <About />
-          <Influences />
           <Contact />
       </div>
 

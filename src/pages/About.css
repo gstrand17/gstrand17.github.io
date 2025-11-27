@@ -3,28 +3,34 @@
     color: #415B41;
     background-color: #94B394;
     font-weight: 500;
+    padding: 1rem 8vw 2rem 8vw;
+}
+.about-inf{
+    margin: 0;
+    color: #415B41;
+    background-color: #709970;
+    font-weight: 500;
+    padding: 1rem 8vw 2rem 8vw;
 }
 .about-h1{
     font-size: 3rem;
-    padding-left: 5vw;
-    padding-top: 2rem;
     margin-bottom: 0;
+    padding-bottom:0;
     color:white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 .about-h2{
     font-size: 1.5rem;
-    padding-left: 7vw;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin:0;
+    padding:0;
     color:white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 .about-p{
     font-size: 1rem;
     color: black;
-    padding-left: 7vw;
-    padding-right: 6vw;
+    /*padding-left: 7vw;*/
+    /*padding-right: 6vw;*/
     padding-bottom: 10px;
     margin-top: 10px;
     flex: 1 1 48%;
@@ -32,21 +38,75 @@
     min-width: 300px;
     line-height: 30px;
 }
-
-.about-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    padding-left: 7vw;
-    padding-right: 6vw;
-    align-items: flex-start;
-}
-.about-box {
+.about-p2{
     font-size: 1.2rem;
-    flex: 1 1 20vw;
-    min-width: 200px;
-    text-align: left;
-    line-height: 2rem;
+    color: black;
+    /*padding-left: 7vw;*/
+    /*padding-right: 6vw;*/
+    padding-bottom: 10px;
+    margin-top: 10px;
+    flex: 1 1 48%;
+    width: 80vw;
+    min-width: 300px;
+    line-height: 30px;
+}
+/* Educator influences */
+.about-row{
+    display:flex;
+    gap: 2rem;
+    margin:0;
+    padding:0;
+}
+.about-col{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    margin:0;
+    gap:1rem;
+}
+.about-card{
+    display: flex;
+    flex-direction: column;
+    background: #E6F0E6;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1rem;
+}
+.about-card-row {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.about-card-col{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+.about-card-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 12px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.about-card-h1 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #415B41;
+}
+.about-card-h2 {
+    margin: 0;
+    margin-top: 0.2rem;
+    font-size: 1rem;
+    color: #788e7a;
+}
+.about-card-p {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #3a3a3a;
 }
 
 /*Medium screen*/
@@ -66,5 +126,12 @@
     .about-box {
         padding-left: 7vw;
         flex: 1 1 100%;
+    }
+    .about-row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-col{
+        width:100%;
     }
 }
