@@ -1,5 +1,4 @@
 .Cards{
-
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -12,14 +11,7 @@
     width: 100%;
     padding-bottom: 50px;
 }
-/*.proj-h1{*/
-/*    font-size: 3rem;*/
-/*    padding-left: 5vw;*/
-/*    padding-top: 1rem;*/
-/*    margin-bottom: 0;*/
-/*    color:white;*/
-/*    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);*/
-/*}*/
+
 .proj-h1{
     font-size: 3rem;
     text-align: center;
@@ -27,11 +19,9 @@
     margin-bottom: 0;
     color: #415B41;
 }
-.proj-p{
+.proj-h2{
     font-size: 1.5rem;
-    padding-left: 5vw;
-    margin-top: 0;
-    color:white;
+    text-align: center;
 }
 .toggle-container {
   position: relative;
@@ -76,4 +66,46 @@
 
 .slider.spanish {
   transform: translateX(100%);
+}
+.spanish-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers the boxes */
+    gap: 20px; /* spacing between assignment boxes */
+    padding: 20px;
+}
+
+.assignment-box {
+    width: 90%;
+    max-width: 900px;
+    background-color: #94B394;
+    border-radius: 14px;
+    padding: 20px; /* space inside the box */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.assignment-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.assignment-title:hover {
+    text-decoration: underline;
+}
+
+.assignment-text {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #000;
+    line-height: 1.4;
+}
+.ppt-embed {
+  width: 100%;
+  max-width: 900px;
+  height: 500px;
+  border: none;
+  margin-top: 12px;
+  border-radius: 10px;
 }

@@ -41,10 +41,15 @@ function About() {
                     surprise people with my level of proficiency and I am forever determined to reach full spanish
                     fluency, even beyond classes at UF. </p>
                 <p className="about-h2">Professionally<br/></p>
-                <p className="about-p">I&apos;m passionate about building user-friendly applications that solve real-world
-                    problems. I enjoy working in teams and learning from other+9*s, as I believe that collaboration is key to
-                    success in the tech industry. I&apos;m also interested in product management, as I want to understand
-                    how to create products that meet user needs and drive business growth.</p>
+                <p className="about-p">I&apos;m passionate about creating user-friendly applications that solve real-world
+                    problems. Getting my start in the fintech space, I&apos;m eager to soak up all there is to learn about
+                    designing secure, reliable technology while sharpening my coding best practices.
+                    I thrive in team environments and love learning from others, as I believe
+                    that collaboration is key to success in the tech industry. Once I&apos;ve deepened my foundation in software
+                    dev, I&apos;m also interested in exploring product management so I can better understand
+                    how to build products that meet user needs and drive business growth. Additionally, becoming a product
+                    manager would give me the opportunity to guide, support strengths of, and lead team members toward
+                    building something exceptional together. </p>
             </div>
             {/*<div className="about-inf">*/}
             {/*    <h1 className="about-h1">Educator Influences</h1>*/}
