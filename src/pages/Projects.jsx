@@ -92,7 +92,7 @@ function Projects() {
                         </div>
 
                         <div className="assignment-box">
-                            <p className="assignment-title">Presentación: “Tema X”</p>
+                            <p className="assignment-title">Final Research Group Presentation</p>
                             <iframe
                                 src={`https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(
                                     window.location.origin + "/Quest Project Presentation.pptx"
