@@ -1,10 +1,4 @@
-/*#Resume {*/
-/*    padding-top: 60px;*/
-/*    text-align: left;*/
-/*    margin: 0;*/
-/*    width: 80vw;*/
-/*    justify-content: center;*/
-/*}*/
+
 .resume {
     padding-bottom: 50px;
 }
@@ -13,7 +7,7 @@
     text-align: center;
     padding-top: 7rem;
     margin-bottom: 0;
-    color: #415B41;
+    color: white;
 }
 .resume-p{
     text-align: center;
@@ -72,36 +66,73 @@
     height: 5vw;
 }
 
-/*.entry{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    margin-bottom: 2em;*/
-/*}*/
+/* Soft Skills Section */
 
-/*.entry > * {*/
-/*    margin: 0;*/
-/*}*/
-/*.entry > * > * {*/
-/*    margin: 0;*/
-/*}*/
+.soft-skills {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: 2rem 3vw;
+    background-color: #c8dcc8;
+    border-radius: 30px;
+}
 
-/*.title-row{*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    align-items: center;*/
-/*    justify-content: space-between;*/
-/*}*/
+.soft-h2 {
+    text-align: center;
+    color: #415B41;
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
-/*.section{*/
-/*    font-size: x-large;*/
-/*    !* border-bottom: 1px solid black; *!*/
-/*}*/
+.soft-h3 {
+    text-align: center;
+    color: #415B41;
+    font-weight: normal;
+    margin-top: 0.3rem;
+    margin-bottom: 2rem;
+}
 
-/*.title{*/
-/*    font-size: larger;*/
-/*    font-weight: 600;*/
-/*}*/
+/* Grid layout */
 
-/*.subtitle{*/
-/*    font-style: italic;*/
-/*}*/
+.soft-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+/* Individual cards */
+
+.soft-card {
+    background-color: #415B41;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.soft-card h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.soft-card p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Responsive behavior */
+
+@media (max-width: 1000px) {
+    .soft-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .soft-grid {
+        grid-template-columns: 1fr;
+    }
+}
