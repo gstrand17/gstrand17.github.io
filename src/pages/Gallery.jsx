@@ -36,8 +36,9 @@ function Gallery() {
             <nav>
                 <Navbar/>
             </nav>
-            <h1 className="gallery-h1"> Gallery</h1>
-            <h2 className="gallery-h2">Cultural experiences near and far</h2>
+            <h1 className="gallery-h1"> Global Experiences</h1>
+            <h2 className="gallery-h2">Explore some of the fun cultural activites I participated in, near and far,
+                during my time in college</h2>
             <div className="gallery-container">
                 {/* LARGE CARD */}
                 <GalleryCardLarge

@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
 
         <nav className="navbar">
-            <p className="nav-title"><a href='/Home'>Graciela Strand</a></p>
+            <p className="nav-title">Graciela Strand</p>
             <ul className="nav-list">
                 <li className="nav-item">
                     <a href='/#about'>About</a>
@@ -15,10 +15,10 @@ const Navbar = () => {
                     <Link to='/projects'>Projects</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/Gallery">Gallery</Link>
+                    <Link to="/Gallery">Global Experiences</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/Resume">Resume</Link>
+                    <Link to="/Resume">Resume & Skills</Link>
                 </li>
 
             </ul>

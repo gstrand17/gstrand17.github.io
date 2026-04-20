@@ -35,57 +35,58 @@ function Resume () {
                         <div className="soft-card">
                             <h4>Communication</h4>
                             <p>
-                                During a 36-hour hackathon, I worked with beginner coders to build a functional webpage
-                                under tight time constraints. Early on, I guided the team through foundational concepts
-                                and remained available to answer questions throughout development. When we encountered
-                                major merge conflicts that stalled progress and increased stress, I communicated calmly
-                                and clearly to refocus the team. I either worked through the conflicts step-by-step or
-                                called for additional help when needed. By maintaining a composed and supportive
-                                approach, I kept the team aligned and productive. As a result, we successfully completed
-                                the project and delivered a polished final product.
+                                While working as an RA, I regularly interacted with a custodial staff member who spoke
+                                only Spanish. Through my language learning at the University of Florida, I was able to
+                                build a relationship with her and communicate effectively. One day, she expressed
+                                frustration about a persistent mess on another floor but was unable to clearly convey
+                                the issue to the RA responsible for that floor. I stepped in to translate her concerns
+                                accurately and respectfully, ensuring her voice was heard. As a result, the RA addressed
+                                the issue with residents, leading to improved cleanliness and a better living
+                                environment for both staff and students.
                             </p>
                         </div>
 
                         <div className="soft-card">
                             <h4>Teamwork</h4>
                             <p>
-                                As the Scrum Master for my senior project, I led weekly team check-in meetings to track
-                                progress. During a critical week, one team member became sick and was unable to complete
-                                their portion of the work. Although progress slowed, I prioritized team support over
-                                getting frustrated. Instead of assigning blame, I facilitated a discussion where the
-                                teammate outlined their tasks, and the group collaboratively redistributed the workload.
-                                I encouraged open communication and ensured everyone was aligned on next steps. As a
-                                result, we maintained momentum, met our deadlines, and strengthened our team dynamic by
-                                supporting each other during a challenging situation for one member.
+                                In my SPT 2520: Ficción vs. Realidad class at UF, I worked in a group of three on a
+                                project about the beauty standards and their political significance in Venezuela and
+                                Colombia. My teammates were more fluent in Spanish and more familiar with the subject
+                                matter, which initially made it difficult to contribute at their pace. Instead of
+                                withdrawing, I organized our workflow by assigning roles based on each person’s
+                                strengths and by setting expectations to document research/sources in a shared file.
+                                This created accountability while allowing me to engage with the material at my own
+                                pace. As a result, we collaborated successfully and I confidently delivered my part of
+                                the presentation in Spanish.
                             </p>
                         </div>
 
                         <div className="soft-card">
                             <h4>Professionalism</h4>
                             <p>
-                                While working the front desk at a residence hall, I gave tours to prospective students
-                                and families. During one tour, a parent began criticizing the dorms and referencing
-                                negative online reviews. Although I felt personally connected to the space, I remained
-                                composed and professional. I acknowledged that some concerns online can be valid but
-                                may also be exaggerated. I provided honest insight into daily custodial efforts while
-                                explaining that cleanliness also depends on student responsibility. By responding calmly
-                                and respectfully, I was able to de-escalate the situation. The parent left more
-                                understanding despite initial tension.
+                                During my summer software development internship, I worked closely with teammates based
+                                in India, where I quickly noticed differences in communication style and workplace
+                                expectations. In one instance, I received feedback that I was being too verbose when
+                                asking questions. While this was initially difficult to hear, I recognized the cultural
+                                context behind it and chose to adapt. I refined my communication to be more concise and
+                                direct while still maintaining clarity. By adjusting my approach, I improved
+                                collaboration with my team and ensured my communication style aligned better with their
+                                workflow, contributing to a more efficient and respectful working environment.
                             </p>
                         </div>
 
                         <div className="soft-card">
                             <h4>Critical Thinking</h4>
                             <p>
-                                While working as an RA, I encountered an unexpected emergency while delivering a lost
-                                credit card. After knocking on that resident’s door and hearing shouting, I also heard
-                                a scream down the hall. I quickly assessed the situations and temporarily redirected
-                                my attention, where I found a student passed out in a bathroom. After confirming that
-                                911 had been called, I contacted RA backup to ensure continued support. I then returned
-                                to the original resident and found she had suffered a fall and also needed medical
-                                attention. By prioritizing tasks, coordinating help, and adapting in real time, I was
-                                able to manage two simultaneous emergencies. As a result, both students received timely
-                                care and were safely transported to the hospital.
+                                While studying abroad in Spain, I took a Flamenco course taught entirely in Spanish,
+                                where I had to learn choreography through verbal instruction I did not always fully
+                                understand. Instead of relying on direct translation, I analyzed patterns in demonstrated
+                                movement and used repetition to connect unfamiliar terminology to physical actions. I
+                                also paid close attention to tone, rhythm, and context to interpret instructions more
+                                accurately. By adapting my learning approach in real time, I was able to successfully
+                                keep up with the class and perform the choreography. This experience strengthened my
+                                ability to problem-solve in unfamiliar environments and apply critical thinking beyond
+                                traditional academic settings.
                             </p>
                         </div>
 
